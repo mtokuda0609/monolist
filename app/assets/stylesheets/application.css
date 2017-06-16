@@ -56,7 +56,12 @@ footer {
 
 /* item */
 .item .panel-body {
-  height: 70px;
+  height: 120px;
+}
+
+.item .buttons form {
+  display: inline-block;
+  margin: 0 5px;
 }
 
 .item .panel-heading {
@@ -68,9 +73,46 @@ footer {
   max-width: 100%;
 }
 
-p.item-title {
+p .item-title {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
+
+/* users */
+.user_profile .name {
+  margin-bottom: 20px;
+}
+
+.user_profile .name h2 {
+  text-shadow: 1px 1px 1px #fff;
+  font-weight: bold;
+}
+
+.user-profile .status ul {
+  margin: 0 auto 10px;
+}
+
+.user_profile .status ul li {
+  width: 120px;
+  padding: 5px 0;
+  border-right: 1px solid #ddd;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #777;
+}
+
+.user-profile .status ul li:last-child {
+  border: none;
+}
+
+.user-profile .status ul li .status-label {
+  font-size: 12px;
+}
+
+.user-profile .status ul li .status-value {
+  font-size: 18px;
+}
+
