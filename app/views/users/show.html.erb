@@ -1,4 +1,4 @@
-<div class="user_profile">
+<div class="user-profile">
   <div class="icon text-center">
     <img src="<%= gravatar_url(@user, size: 100) %>" alt="" class="img-circle">
   </div>
@@ -15,9 +15,8 @@
       </li>
       <li>
         <div class="status-label">HAVE</div>
-        <div id="want_count" class="status-value">
-          <%#= @count_have %>
-          xxx
+        <div id="have_count" class="status-value">
+          <%= @count_have %>
         </div>
       </li>
     </ul>
