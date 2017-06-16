@@ -60,7 +60,13 @@ group :development do
   gem 'awesome_print'
 end
 
+# 環境変数を簡易的に扱える
+gem 'dotenv-rails'
+
 # Heroku setting
 group :production do
   gem 'pg'
 end
+
+# Rakuten API
+gem 'rakuten_web_service'
